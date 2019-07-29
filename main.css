@@ -1,0 +1,21 @@
+main{
+	margin-top: 120px; /*headerの幅だけ下に下げる*/
+	min-height: calc(100vh - 170px); /*headerとfooter以外をmainで占める*/
+	width: 100%;
+	overflow: hidden; /*はみ出たら非表示(デザインを保つ)*/
+	background-color: #b0c4de;
+}
+
+.maincontent{
+	float: left;
+	height: 550px;
+	width: 80%; /*submenuとの比率*/
+	background-color: #778899;
+}
+
+.submenu{
+	float: right;
+	height: 550px;
+	width: 20%; /*maincontentとの比率*/
+	background-color: #e6e6fa;
+}

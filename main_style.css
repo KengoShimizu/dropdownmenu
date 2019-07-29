@@ -1,0 +1,13 @@
+@import "header.css";
+@import "main.css";
+
+body{
+	margin: 0; /*要素を画面幅いっぱいに表示*/
+	min-height: calc(100vh - 120px); /*最低でも画面縦のサイズ*/
+}
+
+footer{
+	height: 50px;
+	width: 100%;
+	background-color: #696969;
+}
